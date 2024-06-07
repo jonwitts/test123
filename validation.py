@@ -1,4 +1,8 @@
 def valid_number(message):
+    '''
+    Function to ensure that user enters a valid integer.
+    The prompt to the user is passed in the message parameter.
+    '''
     not_valid = True  # input has not been validated
     while not_valid:
         print(message)  # display message parameter
